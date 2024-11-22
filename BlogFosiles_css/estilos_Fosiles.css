@@ -1,0 +1,92 @@
+/* Estilo para el menú */
+.menu a {
+    font-size: 1.5em; /* Aumenta tamaño un 50% */
+}
+
+.menu a:visited {
+    color: purple; /* Cambia color al visitarlo */
+}
+
+/* Estilo para el botón "Volver al inicio" */
+.back-to-top {
+    display: block;
+    margin: 1em 0;
+    padding: 10px 20px;
+    background-color: #2a7c2a; /* Verde oscuro */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    background-color: #1e5d1e; /* Verde más oscuro */
+}
+
+/* Estilo para las imágenes principales */
+.imagen-principal {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* Estilo para el contenedor horizontal que incluye las muestras y el vídeo */
+.contenedor-horizontal {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten cuando no haya espacio suficiente */
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+
+/* Estilos para las muestras */
+.muestra {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    flex: 1; /* Hace que las muestras ocupen espacio disponible */
+}
+
+.muestra img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.muestra p {
+    margin-top: 5px;
+}
+
+/* Estilo para el contenedor del vídeo */
+.video {
+    flex: 1 1 450px; /* Permite que el vídeo ocupe el espacio disponible y se ajuste al tamaño del contenedor */
+    margin: 10px;
+    text-align: center;
+}
+
+.video iframe {
+    width: 100%;
+    max-width: 450px;
+    height: 350px;
+}
+
+/* Estilo para los enlaces del pie de página */
+.footer-links a {
+    text-decoration: none;
+    color: #2a7c2a;
+    margin-right: 15px;
+}
+
+.footer-links a:hover {
+    color: #1e5d1e;
+}
+
+footer {
+    display: block; /* Asegúrate de que el footer esté visible */
+    visibility: visible; /* Asegúrate de que el footer sea visible */
+    position: relative; /* El footer debe estar en el flujo normal de la página */
+    background-color: #f1f1f1; /* Un color de fondo para asegurarse de que sea visible */
+    padding: 20px;
+    text-align: center;
+}
+
